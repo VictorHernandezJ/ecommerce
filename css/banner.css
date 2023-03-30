@@ -71,9 +71,10 @@
         line-height: 16px;
     }
     .banner-boton{
-        width: 115px;
-        font-size: 14px;
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
         margin-bottom: 20px;
-        padding: 10px 14px;
+        padding: 0px 5px;
     }
 }

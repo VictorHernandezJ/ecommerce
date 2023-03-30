@@ -32,3 +32,4 @@ content.innerHTML = `
 
 rodapie.appendChild(content)
 console.log(rodapie)
+console.log('hola')

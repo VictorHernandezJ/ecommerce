@@ -31,6 +31,7 @@
     font-size: 32px;
     line-height: 38px;
     color: #464646;
+    text-transform: capitalize;
 }
 
 .header-link {
@@ -165,8 +166,10 @@
 
     /*header productos*/
     .productos-header {
-        width: 96%;
+        width: 99%;
+        border: 1px solid black;
     }
+
 
     .header-link a {
         line-height: 16px;

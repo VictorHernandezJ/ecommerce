@@ -98,8 +98,9 @@ header{
         flex: 3;
     }
     .btn-login{
-        width: 133px;
-        height: 40px;
+        width: 100px;
+        height: 35px;
+        font-size: 14px;
     }
     .contenedor-icono{
         display: block;
