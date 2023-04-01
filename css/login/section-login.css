@@ -46,11 +46,11 @@
         line-height: 18px;
     }
     .login-item{
-        width: 275px;
+        width: 80%;
         height: 41px;
     }
     .login-boton{
-        width: 110px;
+        width: 80%;
         height: 40px;
         font-size: 14px;
         line-height: 16px;
@@ -58,9 +58,21 @@
 }
 
 @media screen and (max-width:767px) {
+    .contenedor-login form{
+        width: 90%;
+        height: 3*63px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
     .login-boton{
         width: 110px;
         height: 40px;
         font-size: 12px;
+    }.login-item{
+        width: 90%;
+        height: 41px;
     }
 }

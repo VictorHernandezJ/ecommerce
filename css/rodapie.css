@@ -137,7 +137,7 @@
 
     .logo-lista {
         flex-direction: column;
-        margin-bottom: 20px;
+        margin: 0 auto 20px;
     }
 
     .rodapie-logo {
@@ -154,6 +154,7 @@
 
     .rodapie-contacto {
         width: 90%;
+        margin: auto;
     }
 
     .contacto-nombre, .contacto-mensaje, .contacto-boton{

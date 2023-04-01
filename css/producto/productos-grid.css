@@ -16,8 +16,11 @@
 }
 
 .producto {
-    flex: 1 0;
+    flex: 1;
     position: relative;
+}
+.productos-body{
+    gap: 20px;
 }
 @media screen and (min-width:768px) and (max-width:1023px) {
     .producto {
@@ -26,6 +29,12 @@
 }
 
 @media screen and (max-width:767px) {
+    .producto{
+        margin: 5px;
+    }
+    .producto img{
+        width: 100%;
+    }
     .header-items{
         flex-direction: column;
         gap: 10px;
