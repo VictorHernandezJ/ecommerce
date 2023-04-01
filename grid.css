@@ -1,0 +1,28 @@
+/* Cuadrícula de 6 columnas */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* 6 columnas de igual ancho */
+    grid-gap: 10px;
+    /* Espacio entre elementos */
+}
+.item {
+    background-color: aqua;
+}
+
+/* Media queries para dispositivos móviles y tabletas */
+@media screen and (max-width: 768px) {
+
+    /* 4 columnas para tabletas */
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* 2 columnas para celulares */
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -15,10 +15,6 @@
     align-items: center;
 }
 
-.logo-lista .contacto {
-    height: 234px;
-}
-
 .logo-lista {
     flex: 2;
     display: flex;
@@ -32,7 +28,6 @@
 .rodapie-lista {
     display: flex;
     flex-direction: column;
-    gap: 24px;
 }
 
 .rodapie-lista li {
