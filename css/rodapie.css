@@ -1,7 +1,6 @@
 .rodapie {
-    height: 470px;
     background-color: #EAF2FD;
-    padding: 70px 0;
+    padding: 70px 0 0;
     font-family: Raleway;
     text-transform: capitalize;
 }
@@ -9,10 +8,11 @@
 .rodapie-empresa {
     display: flex;
     width: 80%;
+    padding: 50px 0;
     height: 370px;
     margin: auto;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
 }
 
 .logo-lista {
@@ -28,6 +28,7 @@
 .rodapie-lista {
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 
 .rodapie-lista li {
@@ -82,7 +83,7 @@
 }
 .rodapie-desarrollador{
     background-color: #FFF;
-    height: 100px;
+    height: 90px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;

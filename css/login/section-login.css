@@ -30,6 +30,10 @@
     line-height: 20px;
 }
 .login-boton{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #2a7ae4;
     color: white;
     font-size: 18px;
