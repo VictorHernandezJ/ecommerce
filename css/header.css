@@ -70,7 +70,9 @@ header {
     header {
         height: 72px;
     }
-
+    .contenedor-buscador{
+        flex: 2;
+    }
     .contenedor {
         width: 90%;
     }
